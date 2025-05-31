@@ -8,7 +8,7 @@
   <style>
   body {
     font-family: 'Playwrite HU', 'Noto Sans JP', sans-serif;
-    background-color: #ffffff;
+    background-color: #fdfaf7;
     margin: 0;
     padding: 2rem;
     display: flex;
@@ -19,6 +19,10 @@
     width: 100%;
     margin: 50px auto;
     text-align: center;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)
   }
   h1 {
     font-size: 1.8rem;
@@ -71,6 +75,7 @@
 <div class="container">
   <h1>Contact form</h1>
   <p>📮お問い合わせ・メッセージ等はこちらからどうぞ</p>
+  <small style="color: #888;">※ メールアドレス・本文は必須です。</small>
   <form target="_blank" action="https://formsubmit.co/lilywhisp@hotmail.com" method="POST">
     <div class="form-group">
       <div class="form-row">
@@ -85,7 +90,7 @@
     <div class="form-group">
       <textarea placeholder="本文を入力してください" class="form-control" name="message" rows="10" required></textarea>
     </div>
-    <button type="submit" class="btn btn-lg btn-dark btn-block">送信する</button>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">✉️ 送信する</button>
   </form>
   <p style="text-align: center; margin-top: 2rem; color: #666; font-size: 0.9rem;">© mo_lilyn</p>
 </div>
