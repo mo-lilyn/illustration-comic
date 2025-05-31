@@ -15,11 +15,12 @@
     display: flex;
     justify-content: center;
   }
-  input,
-  textarea,
+  input::placeholder,
+  textarea::placeholder,
   p {
     font-size: 0.95rem;
     line-height: 1.6;
+    opacity: 1; /* Safari用：薄すぎ防止 */
   }
   .container {
     max-width: 600px;
