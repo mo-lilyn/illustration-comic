@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>メッセージはこちら</h1>
+  <form target="_blank" action="https://formsubmit.co/lilywhisp@hotmail.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="名前" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="メールアドレス" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="本文を入力してください" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">送信する</button>
+  </form>
+</div>
